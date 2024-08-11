@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "src/assets/Eventphotos/Event_Pic_1.jpeg"
+  },
+  {
+    "id": 2,
+    "image": "src/assets/Eventphotos/Event_Pic_2.jpeg"
+  },
+  {
+    "id": 3,
+    "image": "src/assets/Eventphotos/Event_Pic_3.jpeg"
+  },
+  {
+    "id": 4,
+    "image": "src/assets/Eventphotos/Event_Pic_4.jpeg"
+  },
+  {
+    "id": 5,
+    "image": "src/assets/Eventphotos/Event_Pic_5.jpeg"
+  },
+  {
+    "id": 6,
+    "image": "src/assets/Eventphotos/Event_Pic_6.jpeg"
+  },
+  {
+    "id": 7,
+    "image": "src/assets/Eventphotos/Event_Pic_7.jpeg"
+  },
+  {
+    "id": 8,
+    "image": "src/assets/Eventphotos/Event_Pic_8.jpeg"
+  },
+  {
+    "id": 9,
+    "image": "src/assets/Eventphotos/Event_Pic_9.jpeg"
+  },
+  {
+    "id": 10,
+    "image": "src/assets/Eventphotos/Event_Pic_10.jpeg"
+  }
+]
