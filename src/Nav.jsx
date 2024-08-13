@@ -12,7 +12,7 @@ export default function Nav() {
   ];
 
   return (
-    <Navbar
+    <Navbar className="justify-start backdrop-blur-[2px]"
       isBordered
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
@@ -27,7 +27,7 @@ export default function Nav() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex ">
+      <NavbarContent className="hidden sm:flex gap-36">
         <NavbarBrand>
         <img className='h-10 w-11 my-2 mx-2' src="src/assets/SWITCH_LOGO.png" />
         </NavbarBrand>
@@ -52,6 +52,12 @@ export default function Nav() {
           </Link>
         </NavbarItem>
       </NavbarContent>
+{/* 
+      <NavbarContent>
+        <NavbarBrand>
+        <img className='h-10 w-11' src="src/assets/SWITCH_LOGO.png" />
+        </NavbarBrand>
+      </NavbarContent> */}
 
       <NavbarMenu>
         {menuItems.map((item, index) => (

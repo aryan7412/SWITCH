@@ -38,5 +38,13 @@
   {
     "id": 10,
     "image": "src/assets/Eventphotos/Event_Pic_10.jpeg"
+  },
+  {
+    "id": 11,
+    "image": "src/assets/Eventphotos/Event_Pic_11.jpeg"
+  },
+  {
+    "id": 12,
+    "image": "src/assets/Eventphotos/Event_Pic_12.jpeg"
   }
 ]
