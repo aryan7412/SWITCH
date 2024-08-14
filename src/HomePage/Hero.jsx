@@ -18,6 +18,11 @@ const Hero = () => {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
+                
+                style:{
+                    height: "620px",
+                    position: "fixed",
+                },
                 background: {
                     color: {
                         value: "#ffffff",

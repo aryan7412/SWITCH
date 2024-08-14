@@ -1,28 +1,28 @@
 import React from "react"
 // import Design from "./HomePage/Hero"
-// import Background from './HomePage/Background'
-import Gallery from "./GallerySection/Gallery"
-import Photos from './GallerySection/Photos.json'
+// import Gallery from "./GallerySection/Gallery"
+// import Photos from './GallerySection/Photos.json'
 // import FAQ from "./HomePage/FAQ"
 // import Nav from "./Nav"
-// import Testimonial from "./HomePage/Testimonial"
-// import testimonial from './HomePage/testimonial.json'
-// import Clients from "./HomePage/Testimonial"
 // import HeroText from "./HomePage/HeroText"
+// import Testimonial from "./HomePage/Testimonial"
+import TeamPhotos from "./OurTeam/TeamPhotos"
+import TeamPhoto from "./OurTeam/TeamPhotos.json"
 
 function App() {
 
   return(
-    <div className="">
+    <div>
       {/* <Clients /> */}
-      {/* <Nav/>
-      <HeroText /> */}
       {/* <Testimonial/> */}
-      {/* <Background /> */}
-      <Gallery Photos={Photos}/>
-
-      <div className="">
+      {/* <Nav/> */}
+      {/* <HeroText /> */}
+      {/* <Gallery Photos={Photos}/> */}
+      <TeamPhotos TeamPhoto={TeamPhoto}/>
+      <div>
         {/* <Design/> */}
+        <div className="relative">
+        </div>
       </div>
       <div>
         {/* <FAQ /> */}

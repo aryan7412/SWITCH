@@ -32,22 +32,22 @@ export default function Nav() {
         <img className='h-10 w-11 my-2 mx-2' src="src/assets/SWITCH_LOGO.png" />
         </NavbarBrand>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Home">
           Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Events">
           Events
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Team">
           Team
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#" >
+          <Link color="foreground" href="/Gallery" >
           Gallery
           </Link>
         </NavbarItem>

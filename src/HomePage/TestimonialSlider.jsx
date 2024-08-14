@@ -4,7 +4,7 @@ import { IoIosQuote } from "react-icons/io";
 const TestimonialSlider = (props) => {
     const { name, position, img_url, stars, disc } = props.item;
     return (
-        <div className="bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 p-6 mx-4">
+        <div className="bg-gradient-to-br from-slate-300 via-blue-400 to-blue-700 p-6 mx-4">
             <div className="flex items-center justify-between mb-4">
                 <span className="text-4xl text-teal-500 opacity-70"><IoIosQuote /></span>
             </div>

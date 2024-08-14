@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "image": "/src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Scretory" 
+    },
+    {
+      "id": 2,
+      "image": "src/assets/Eventphotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Secretary, Content & Creative Team Lead"
+    },
+    {
+      "id": 3,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 4,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 5,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 6,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 7,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 8,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 9,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 10,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 11,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    },
+    {
+      "id": 12,
+      "image": "src/assets/TeamMemberPhotos/Event_Pic_2.jpeg",
+      "name": "Aryan",
+      "post": "Member"
+    }
+  ]
