@@ -1,0 +1,54 @@
+@keyframes cursor {
+  to {
+    border-left-color: transparent;
+  }
+}
+
+@keyframes words {
+  0%, 20% {
+    content: "If you love Coding,";
+  }
+  21%, 40% {
+    content: "You are at the right place.";
+  }
+  41%, 60% {
+    content: "Welcome to SWITCH.";
+  }
+  61%, 80% {
+    content: "This is the official coding club of Silicon University.";
+  }
+  81%, 100% {
+    content: "Happy Coding!";
+  }
+}
+
+@keyframes typing {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+    width: 0;
+  }
+  5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    width: calc(100% + 8px);
+  }
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: "Youtuber";
+  color: #000000;
+  animation: words 30s infinite;
+  
+}
+
+.animated-text span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #ffffff;
+  border-left: 2px solid #000000;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 30s steps(30) infinite;
+}

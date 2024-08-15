@@ -4,10 +4,10 @@ import React from "react"
 // import Photos from './GallerySection/Photos.json'
 // import FAQ from "./HomePage/FAQ"
 // import Nav from "./Nav"
-// import HeroText from "./HomePage/HeroText"
+import HeroText from "./HomePage/HeroText"
 // import Testimonial from "./HomePage/Testimonial"
-import TeamPhotos from "./OurTeam/TeamPhotos"
-import TeamPhoto from "./OurTeam/TeamPhotos.json"
+// import TeamPhotos from "./OurTeam/TeamPhotos"
+// import TeamPhoto from "./OurTeam/TeamPhotos.json"
 
 function App() {
 
@@ -16,9 +16,9 @@ function App() {
       {/* <Clients /> */}
       {/* <Testimonial/> */}
       {/* <Nav/> */}
-      {/* <HeroText /> */}
+      <HeroText />
       {/* <Gallery Photos={Photos}/> */}
-      <TeamPhotos TeamPhoto={TeamPhoto}/>
+      {/* <TeamPhotos TeamPhoto={TeamPhoto}/> */}
       <div>
         {/* <Design/> */}
         <div className="relative">
