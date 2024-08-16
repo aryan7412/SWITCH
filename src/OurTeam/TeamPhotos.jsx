@@ -1,12 +1,11 @@
 import React from "react";
+import Heading from "../Heading";
 
 function TeamPhotos({ TeamPhoto }) {
   return (
     <div>
       <div className="">
-        <h3 className="text-center text-4xl font-light tracking-wider pb-5 pt-6">
-          Our <strong>Team</strong>
-        </h3>
+        <Heading>Our <strong>Team</strong></Heading>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 ml-2 mr-2 items-center overflow-hidden">
           {TeamPhoto.map((pht, index,post) => (
             <div className="ml-3 mb-4 overflow-hidden">

@@ -21,7 +21,7 @@ const Hero = () => {
                 
                 style:{
                     height: "620px",
-                    position: "fixed",
+                    position: "relative",
                 },
                 background: {
                     color: {

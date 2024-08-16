@@ -1,5 +1,6 @@
 import React from "react";
 import {Accordion, AccordionItem} from "@nextui-org/react";
+import Heading from "../Heading";
 
 export default function App() {
   const defaultContent =
@@ -8,7 +9,7 @@ export default function App() {
   return (
     <div>
 
-    <h3 className="py-8">FAQ</h3>
+    <Heading>FAQ</Heading>
     <Accordion variant="bordered">
       <AccordionItem key="1" aria-label="Accordion 1" title="Accordion 1">
         {defaultContent}

@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from './Card';
+import Heading from '../Heading';
 
 function Gallery({ Photos }) {
   return (
     <div>
     <div className='mx-5'>
-      <h3 className="text-center text-4xl font-light tracking-wider pb-2 pt-6">Gallery</h3>
+      <Heading>Gallery</Heading>
       <p className="text-center font-extralight pb-10">Images that tell a story</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 ml-2 mr-2 items-center overflow-hidden">
         {Photos.map((pht, index) => (
