@@ -20,7 +20,7 @@ const Hero = () => {
             options={{
                 
                 style:{
-                    height: "620px",
+                    height: "740px",
                     position: "relative",
                 },
                 background: {

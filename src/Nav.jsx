@@ -1,5 +1,6 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem} from "@nextui-org/react";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -23,7 +24,7 @@ export default function Nav() {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-        <img className='h-10 w-11 my-2 mx-2' src="src/assets/SWITCH_LOGO.png" />
+        <img className='h-12 w-14 my-2 mx-2' src="src/assets/SWITCH_LOGO.png" />
         </NavbarBrand>
       </NavbarContent>
 
@@ -32,9 +33,7 @@ export default function Nav() {
         <img className='h-10 w-11 my-2 mx-2' src="src/assets/SWITCH_LOGO.png" />
         </NavbarBrand>
         <NavbarItem>
-          <Link color="foreground" href="/Home">
-          Home
-          </Link>
+          <Link color="foreground" to='/Home' >Home</Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="/Events">
@@ -47,9 +46,7 @@ export default function Nav() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/Gallery" >
-          Gallery
-          </Link>
+            <Link color="foreground" to='/Gallery' >Gallery</Link>
         </NavbarItem>
       </NavbarContent>
 {/* 

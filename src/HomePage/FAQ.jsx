@@ -1,5 +1,5 @@
 import React from "react";
-import {Accordion, AccordionItem} from "@nextui-org/react";
+import { Accordion, AccordionItem } from "@nextui-org/react";
 import Heading from "../Heading";
 
 export default function App() {
@@ -8,19 +8,18 @@ export default function App() {
 
   return (
     <div>
-
-    <Heading>FAQ</Heading>
-    <Accordion variant="bordered">
-      <AccordionItem key="1" aria-label="Accordion 1" title="Accordion 1">
-        {defaultContent}
-      </AccordionItem>
-      <AccordionItem key="2" aria-label="Accordion 2" title="Accordion 2">
-        {defaultContent}
-      </AccordionItem>
-      <AccordionItem key="3" aria-label="Accordion 3" title="Accordion 3">
-        {defaultContent}
-      </AccordionItem>
-    </Accordion>
+      <Heading>FAQ</Heading>
+      <Accordion className="w-full max-w-xl sm:max-w-2xl lg:max-w-4xl mx-auto" variant="bordered">
+        <AccordionItem key="1" aria-label="Accordion 1" title="Accordion 1">
+          {defaultContent}
+        </AccordionItem>
+        <AccordionItem key="2" aria-label="Accordion 2" title="Accordion 2">
+          {defaultContent}
+        </AccordionItem>
+        <AccordionItem key="3" aria-label="Accordion 3" title="Accordion 3">
+          {defaultContent}
+        </AccordionItem>
+      </Accordion>
     </div>
   );
 }

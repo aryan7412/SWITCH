@@ -1,5 +1,6 @@
 import React from "react";
 import Heading from "../Heading";
+import { Link } from "react-router-dom";
 
 function TeamPhotos({ TeamPhoto }) {
   return (
@@ -18,11 +19,12 @@ function TeamPhotos({ TeamPhoto }) {
               <div className="text-center text-[13px]">{pht.post}</div>
             </div>
           ))}
-
         </div>
       </div>
       <div className="text-center py-7">
+        <Link to="/Team">
             <button className="border border-black px-[10px] py-[6px] rounded-lg">Meet Entire Team</button>
+        </Link>
       </div>
     </div>
   );
